@@ -6,6 +6,7 @@ def mouseButton( btn ) :
     if btn == py.window.mouse.LEFT  : return 'l'
     if btn == py.window.mouse.RIGHT : return 'r'
 # mouseButton = [ None,'l','m',None,'r',None, None, None ]
+# mouseButton = [ None,'l','m',None,'r',None, None, None ]
 
 class Battleship( py.window.Window ):
     def __init__( self, *args, **kwargs ):
